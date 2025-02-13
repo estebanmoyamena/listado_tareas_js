@@ -1,6 +1,8 @@
 # Gestor de Tareas version 1 🚀 - Portafolio QA
 
-![Programa desplegado]<img src="img/image1.png" alt="Gestor tareas"> 
+
+Programa desplegado
+<img src="img/image1.png" alt="Gestor tareas"> 
 
 Aplicación web para gestión de tareas con mejoras de seguridad y accesibilidad. Proyecto demostrativo para perfiles QA funcionales.
 
