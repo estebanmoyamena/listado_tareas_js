@@ -64,9 +64,9 @@ Aplicación web para gestión de tareas con mejoras de seguridad y accesibilidad
 
 ## Estructura del Proyecto 📂
 gestor-tareas-qa/
-├── index.html # Interfaz principal
-├── style.css # Estilos visuales
-├── app.js # Lógica de la aplicación
+├── index.html # Interfaz principal<br>
+├── style.css # Estilos visuales<br>
+├── app.js # Lógica de la aplicación<br>
 └── README.md # Este archivo
 
 
