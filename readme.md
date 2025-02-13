@@ -63,7 +63,7 @@ Aplicación web para gestión de tareas con mejoras de seguridad y accesibilidad
 **Esperado:** Muestra fecha en formato local DD/MM/AAAA
 
 ## Estructura del Proyecto 📂
-gestor-tareas-qa/
+gestor-tareas-qa/<br>
 ├── index.html # Interfaz principal<br>
 ├── style.css # Estilos visuales<br>
 ├── app.js # Lógica de la aplicación<br>
