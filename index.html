@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Gestor de Tareas ✨ | Portafolio QA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXElEQVR4nGNgGAVDHjAMdgYwYrHDy8vLkZqa2o6Iq6ur/2MCHh4e5piUYwVYND558gSjZkww4AIYGRn/9/f3/8cFBjzA5s2b/2MDAx4AmwUGPABDAAA2eBwC6d3AGQAAAABJRU5ErkJggg==">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Mi Gestor de Tareas (v1.0)</h1>
+        
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Ej: Estudiar para el examen...">
+            <button onclick="addTask()" class="btn-add">➕ Agregar</button>
+        </div>
+
+        <ul class="task-list" id="taskList">
+        </ul>
+        
+        <div class="status-counter">
+            <span id="pendingCounter">0</span> tareas pendientes
+        </div>
+
+        <button onclick="clearCompleted()" class="btn-clear" style="margin-top: 15px; display: none;">
+            🗑️ Limpiar completadas
+        </button>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
